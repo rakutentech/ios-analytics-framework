@@ -11,13 +11,13 @@ It is intended to be used only by Rakuten approved applications.
 To use the module in its default configuration your `Podfile` should contain:
  
 ```ruby
-pod 'RAnalytics', :git => 'https://github.com/rakutentech/ios-analytics-framework.git'
+pod 'RAnalytics', :source => 'https://github.com/rakutentech/ios-analytics-framework.git'
 ```
 
-To use a specific version of the module e.g. `1.0.0` the `Podfile` should contain:
+To use a specific version of the module e.g. `1.0.0` your `Podfile` should contain:
 
 ```ruby
-pod 'RAnalytics', :git => 'https://github.com/rakutentech/ios-analytics-framework.git', :tag => '1.0.0'
+pod 'RAnalytics', '1.0.0', :source => 'https://github.com/rakutentech/ios-analytics-framework.git'
 ```
  
 Run `pod install` to install the module and dependencies.
