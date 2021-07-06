@@ -21,6 +21,14 @@ pod 'RAnalytics', '1.0.0', :source => 'https://github.com/rakutentech/ios-analyt
 ```
  
 Run `pod install` to install the module and dependencies.
+
+## Installing with Swift Package Manager
+As an alternative to CocoaPods, this module can be also integrated as a Swift Package.<br>
+To add a new package, open the 'Swift Package' tab in Xcode project settings, click the `+` button, then provide one of the following URLs:
+* SSH: `git@github.com:rakutentech/ios-analytics-framework.git`
+* HTTPS: `https://github.com/rakutentech/ios-analytics-framework.git`
+
+We recommend using "Up to Next Major" version rule.
  
 ## Configuring
 Applications must configure their `Info.plist` as follows:
