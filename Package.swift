@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "RAnalytics",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RAnalytics",
-            url: "https://github.com/rakutentech/ios-analytics-framework/releases/download/8.3.0/RAnalyticsRelease-v8.3.0.zip",
-            checksum: "497fb652beafb1763bc90aaacfb7b0d153f1d2cff3eacf626421188ab2fbbd42"
+            url: "https://github.com/rakutentech/ios-analytics-framework/releases/download/9.0.0/RAnalyticsRelease-v9.0.0.zip",
+            checksum: "a1d731114b27def31bd3d389b0d45f2552c956df5b537e996963927c991ce2a9"
         )
     ]
 )
