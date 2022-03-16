@@ -1,8 +1,12 @@
 # RAnalytics
 Records user activity and automatically sends tracking events to an analytics cloud service.
 
-## Minimum version
-Supports iOS 11.0 and above and has been tested with iOS 11.1 and above.
+## Requirements
+Xcode 12.5.x or Xcode 13+
+
+Swift >= 5.4 is supported.
+
+Note: The SDK may build on earlier Xcode versions but it is not officially supported or tested.
 
 ## Users
 It is intended to be used only by Rakuten approved applications.
