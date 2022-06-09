@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RAnalytics",
-            url: "https://github.com/rakutentech/ios-analytics-framework/releases/download/9.4.1/RAnalyticsRelease-v9.4.1.zip",
-            checksum: "3cb209fd4f5b2bd37575dbd2676a4069e8f62aba0b702d20e4a7ae25e10c702c"
+            url: "https://github.com/rakutentech/ios-analytics-framework/releases/download/9.5.0/RAnalyticsRelease-v9.5.0.zip",
+            checksum: "ee589ccdc754539938ca57720666d2d3896a1ecf57d6436bb2485447bd1a7458"
         )
     ]
 )
